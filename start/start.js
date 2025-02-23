@@ -21,6 +21,15 @@ function countdown() {
 }
 
 function start() {
+    document.getElementById("b").hidden = "true";
+    document.getElementById("b1").style.display = "flex";
+    var minute = 25;
+    time = minute * 60;
+    myInterval = setInterval(countdown, 1000)
+}
+
+function reset(){
+    clearInterval(myInterval)
     var minute = 25;
     time = minute * 60;
     myInterval = setInterval(countdown, 1000)

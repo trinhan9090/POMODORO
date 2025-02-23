@@ -13,10 +13,13 @@
 
     <div class = "container">
         <div class = "flexbox">
-           <p class = "watch" id = "Timer"></p>
+           <p class = "watch custom" id = "Timer"></p>
             <script src="start.js"></script>
             <div>
-                <button onclick="start()">TOMATOES</button>
+                <button onclick="start()" class="custom" style="border-radius: 20px;" id="b">TOMATOES</button>
+            </div>
+            <div>
+                <button onclick="reset()" class="custom" style="border-radius: 20px; display:none ;" id="b1">TOMATOES AGAIN</button>
             </div>
             <br><br>
             <div>
@@ -29,14 +32,14 @@
     <br><br><br><br>
 
     <div class = "container">
-        <DIV class = "musicbox">
+        <DIV class = "musicbox custom">
         <h5 style="text-align: center;">MUSIC BOX</h5>
         <audio id="player" src="25 Minute Timer Lofi.mp3"></audio>
             <div> 
-              <button class ="music" onclick="document.getElementById('player').play()">Play</button> 
-              <button class ="music" onclick="document.getElementById('player').pause()">Pause</button> 
-              <button class ="music" onclick="document.getElementById('player').volume += 0.1">Vol +</button>
-              <button class ="music" onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+              <button style="border-radius: 20px;" class ="music custom" onclick="document.getElementById('player').play()">Play</button> 
+              <button style="border-radius: 20px;" class ="music custom" onclick="document.getElementById('player').pause()">Pause</button> 
+              <button style="border-radius: 20px;" class ="music custom" onclick="document.getElementById('player').volume += 0.1">Vol +</button>
+              <button style="border-radius: 20px;" class ="music custom" onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
             </div>
         </DIV>
     </div>

@@ -13,6 +13,7 @@
 .musicbox{
     background-color: lightgray;
     align-content: center;
+    justify-content:stretch;
     opacity: 0.9;
     padding: 25px 50px;
     margin: 25px 50px;
@@ -44,4 +45,24 @@
 
 button:hover{
     opacity: 0.7;
+}
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(../04b_30/04B_30__.TTF) format("truetype");
+}
+
+.Inria{ /*for text fonts*/
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    opacity: 0.8;
+}
+.custom{
+    font-family: 'My Custom Font';
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    opacity: 0.8;
 }
