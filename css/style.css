@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(239,86,86);
+}
+
+#tomato{
+    position: relative; /*for the pos in javascript*/
+    border: 1px;
+    margin: auto;
+    opacity: 0.8;
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
+}
+.Inria-font{ /*for logo*/
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    font-size: 50px;
+    opacity: 0.8;
+}
+.Inria{ /*for text fonts*/
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    opacity: 0.8;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: white;
+    display: inline-block;
+    padding: 20px 50px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.left-side{
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    justify-content:left;
+}
+.right-side{
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+    justify-content:right;
+}
